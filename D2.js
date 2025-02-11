@@ -80,7 +80,11 @@ console.log(a, b, c);
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").*/
 /* SCRIVI QUI LA TUA RISPOSTA */
-// -------------------------------------------
+let x = 10;
+if (typeof x === "number") {
+  console.log("x è un numero");
+}
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)*/
 /* SCRIVI QUI LA TUA RISPOSTA */
